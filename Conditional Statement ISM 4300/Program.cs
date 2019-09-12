@@ -12,7 +12,7 @@ namespace Conditional_Statement_ISM_4300
 
         // Ask the user for input
         {
-            Console.Write("What grade do you expect to earn in ISM4300?");
+            Console.Write("What grade do you expect to earn in ISM4300? ");
 
             // Use a try catch block to validate user input.
             // If the user input incorrect data, they will 
@@ -86,6 +86,7 @@ namespace Conditional_Statement_ISM_4300
                 else 
                 {
                     Console.WriteLine("Your grade in the class will be a F");
+                    Console.ReadKey(true);
                 }// This line informs the student of their grade
                 
             }
